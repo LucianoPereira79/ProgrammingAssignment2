@@ -22,7 +22,10 @@ And I choosed to get a vector as a parameter and create a matrix from it.
 That's the main function:
 
 	makeCacheMatrix <- function(x) {
-		
+	  
+		# Matrix Dimensions
+		# By example:
+		# To a vector with 9 values, create a matrix with the size of 3x3.
 		num <- sqrt(length(x))
 		x <- matrix(x, nrow = num, ncol = num)
 		
@@ -137,7 +140,6 @@ The result to code above is:
 	[2,] 0.0625 -0.3125  0.25
 	[3,] 0.1250 -0.6250 -0.50
 
-That's it.
-I hope it's rigth.
+That's it. And I hope it's right.
 
 Thank you!
