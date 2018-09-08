@@ -1,8 +1,8 @@
-### Coursera
+# Coursera
 ## R Programming
 
 # Programming Assignment 2: Lexical Scoping
-# Solution By Luciano Pereira
+## Solution By Luciano Pereira
 
 That's the course's example:
 https://github.com/rdpeng/ProgrammingAssignment2
@@ -10,9 +10,9 @@ https://github.com/rdpeng/ProgrammingAssignment2
 That's a example of inverted Matrix:
 https://cran.r-project.org/web/packages/matlib/vignettes/inv-ex1.html
 
-a <- matrix( c(5, 1, 0, 3,-1, 2, 4, 0,-1), nrow=3, byrow=TRUE)
-b <- solve(a)
-b
+	a <- matrix( c(5, 1, 0, 3,-1, 2, 4, 0,-1), nrow=3, byrow=TRUE)
+	b <- solve(a)
+	b
 
 And that's my solution to the assignment:
 
